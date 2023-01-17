@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>투두리스트</h1>
+        <h2>투두리스트</h2>
+        <h6>투두리스트</h6>
+        <div>영역</div>
+        <br/><br/>
+        <hr/>        
+        <div>영역2</div>
+        <p>긴~ <span style="color:red">문장</span>을 쓸 때</p>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+        </ul>
+        <input type="text" />
+        <input type="number" />
+        <button>버튼</button>
+        <img src=""/>
+    
+    <script>
+        // 자바스크립트
+        // 변수
+        let a = "값"
+        let b = "은 뭘까요?"
+        let c = a + b
+        console.log(c)
+
+        let d = 50
+        console.log(`저의 나이는 ${d}`)
+
+        // 객체와 배열
+        let arr = [1,2,3,4,'문자',true,false]
+        console.log(arr[4])
+        arr.push("값")
+        console.log(arr)
+
+        let obj = {
+            "key":"value",
+            "kwy2":"valuw2"
+        }
+        console.log(obj)
+
+        let dic = [
+            {"a":"apple"},
+            {"b":"banana"},
+            {"c":"cloud"}
+        ]
+        console.log(dic)
+
+        // for, if, &&, ||
+        let arr2 = [1,2,3,4,5,6,7]
+        for(let i=0; i < arr2.length; i++){
+            
+            if(arr[i] % 2 == 0 && arr[i] ==2){
+                console.log(arr2[i])
+            }else if(arr[i] % 2 == 0 || arr[i] ==2){
+                console.log(arr2[i])
+            }            
+            
+        }
+
+        // 함수
+        function x(num1,num2){
+            return num1 + num2
+        }
+        let y=x(100,200)
+        console.log(y)
+
+        let str = "대-한-민-국-만-세-!"
+        let str2 = str.split("-")
+        console.log(str2)
+        let str3 = str2.join("*")
+        console.log(str3)
+        console.log(str.indexOf("한"))
+        console.log(str.indexOf("꾹"))
+
+    </script>
+    </body>
+</html>
